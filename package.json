@@ -1,6 +1,6 @@
 {
-  "name": "socketTest",
-  "version": "1.0.0",
+  "name": "socket",
+  "version": "1.1.2",
   "description": "socket.io",
   "main": "index.js",
   "dependencies": {
@@ -17,5 +17,13 @@
     "socket.io"
   ],
   "author": "tinghan",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highmind/HTML5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/highmind/HTML5/issues"
+  },
+  "homepage": "https://github.com/highmind/HTML5#readme"
 }
