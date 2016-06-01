@@ -125,7 +125,7 @@ socketIO.on('connection', function (socket) {
 });
 
 
-// 首页路由
+// 首页路由设置
 router.get('/', function(req, res){
      res.render('index', {});
 });
