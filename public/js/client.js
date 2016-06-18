@@ -7,7 +7,7 @@ var myShakeEvent = new Shake({
 });
 
 myShakeEvent.start();
-
+console.log(window.location.host);
 window.addEventListener('shake', shakeEventDidOccur, false);
 
 //摇一摇

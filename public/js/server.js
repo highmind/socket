@@ -2,12 +2,12 @@ var socket = io();
 var userName = '用户1';  //公共板为 pc端，用户名随意
 var roomID = (new Date()).valueOf();  //创建房间 随机号码
 
-
-console.log("http://192.168.1.220:8080/room/" + roomID);
+console.log();
+console.log("http://" + window.location.host + "/room/" + roomID);
 
 //生成页面房间链接二维码
 var qrcode = new QRCode("qrcode", {
-    text: "http://192.168.1.220:8080/room/" + roomID,
+    text: "http://" + window.location.host + "/room/" + roomID,
     width: 200,
     height:200,
     colorDark : "#000000",
