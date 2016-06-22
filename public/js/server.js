@@ -2,7 +2,6 @@ var socket = io();
 var userName = '用户1';  //公共板为 pc端，用户名随意
 var roomID = (new Date()).valueOf();  //创建房间 随机号码
 
-console.log();
 console.log("http://" + window.location.host + "/room/" + roomID);
 
 //生成页面房间链接二维码
